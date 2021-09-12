@@ -1,4 +1,4 @@
-ul li {
+li {
     margin-bottom: 16px;
 }
 
@@ -14,7 +14,7 @@ a[href$='.com'] {
     margin-left: 50px;
 }
 
-a[lang|='en'] {
+a[lang*='en'] {
     font-size: 10px;
 }
 
