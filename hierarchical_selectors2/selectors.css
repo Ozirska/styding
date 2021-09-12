@@ -1,4 +1,19 @@
-.already-learned h3 {
+.already-learned ol h3 {
     background-color: green;
     color: white;
+}
+
+.to-be-learned ol h3 {
+    background-color: orange;
+    color: green;
+}
+
+.already-learned code {
+    background-color: orange;
+    border: 2px solid blue;
+}
+
+.to-be-learned code {
+    background-color: green;
+    font-size: 24px;
 }
