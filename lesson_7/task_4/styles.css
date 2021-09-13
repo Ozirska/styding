@@ -14,3 +14,7 @@ h1:hover {
 a:visited {
     color: grey;
 }
+
+label {
+    text-transform: uppercase;
+}
