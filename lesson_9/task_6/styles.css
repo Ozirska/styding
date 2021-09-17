@@ -35,7 +35,7 @@
     background-color: aquamarine;
     position: relative;
     position: absolute;
-    top: calc(100% / 2 - 140px);
+    top: calc(100% / 2 - 130px);
     right: calc(100% / 2 - 100px);
 }
 
