@@ -4,12 +4,14 @@
     width: 100%;
     position: fixed;
     z-index: 2;
+    clear: both;
 }
 
 .navigation {
     height: 40px;
     position: fixed;
     z-index: 2;
+    clear: both;
 }
 
 .nav-list {
@@ -22,6 +24,7 @@
     line-height: 8px;
     float: left;
     z-index: 2;
+    position: relative;
 }
 
 .content {
