@@ -8,8 +8,7 @@
 
 .nav-list {
     list-style-type: none;
-    line-height: 1.1;
-    height: 40px;
+    line-height: 50%;
 }
 
 .nav-item {
