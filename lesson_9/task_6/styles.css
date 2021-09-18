@@ -14,15 +14,14 @@
 
 .nav-list {
     list-style-type: none;
+    line-height: 8px;
 }
 
 .nav-item {
     margin-left: 16px;
     color: white;
-    line-height: 8px;
     float: left;
     z-index: 2;
-    position: relative;
 }
 
 .content {
