@@ -9,11 +9,11 @@
 .nav-list {
     list-style-type: none;
     line-height: 10px;
+    text-align: 50%;
     text-align: center;
 }
 
 .nav-item {
-    height: 80px;
     margin-left: 16px;
     color: white;
     float: left;
