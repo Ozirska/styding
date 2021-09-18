@@ -1,6 +1,6 @@
 .header {
     background-color: darkturquoise;
-    height: 80px;
+    height: 40px;
     width: 100%;
     position: fixed;
     z-index: 2;
@@ -8,7 +8,7 @@
 
 .nav-list {
     list-style-type: none;
-    line-height: 40px;
+    line-height: 80px;
     text-align: center;
 }
 
