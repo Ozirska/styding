@@ -1,0 +1,141 @@
+.header {
+    background-color: darkturquoise;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+.navigation {
+    height: 40px;
+    position: fixed;
+    z-index: 2;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-item {
+    margin-left: 16px;
+    color: white;
+    line-height: 8px;
+    float: left;
+    z-index: 2;
+    position: relative;
+}
+
+.content {
+    background-color: beige;
+    height: 5000px;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    position: absolute;
+    top: calc(100% / 2 - 100px);
+    right: calc(100% / 2 - 100px);
+    z-index: 1;
+}
+
+.head {
+    width: 150px;
+    height: 150px;
+    border-radius: 10% 10% 0% 0%;
+    background-color: rgb(4, 199, 134);
+    position: absolute;
+    top: 190px;
+    left: 25px;
+}
+
+.ear {
+    width: 40px;
+    height: 120px;
+    background-color: rgb(68, 128, 68);
+    position: absolute;
+}
+
+.ear_right {
+    top: 200px;
+    right: -15px;
+    border-radius: 0px 50% 0px 0%;
+}
+
+.ear_left {
+    top: 200px;
+    left: -15px;
+    border-radius: 50% 0px 0px 0%;
+}
+
+.eye {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: grey;
+    position: absolute;
+    z-index: -1;
+}
+
+.eye_right {
+    top: 312px;
+    right: -12px;
+}
+
+.eye_left {
+    top: 312px;
+    left: -12px;
+}
+
+.leg1 {
+    width: 150px;
+    height: 40px;
+    background-color: darkblue;
+    position: absolute;
+    top: 340px;
+    right: 25px;
+}
+
+.leg {
+    width: 74px;
+    height: 150px;
+    background-color: darkblue;
+    position: absolute;
+}
+
+.leg_right {
+    top: 380px;
+    right: 25px;
+}
+
+.leg_left {
+    top: 380px;
+    left: 25px;
+}
+
+.but {
+    width: 71px;
+    height: 30px;
+    border-radius: 50% 50% 0% 0%;
+    background-color: rgb(39, 30, 30);
+    position: absolute;
+}
+
+.but_right {
+    top: 500px;
+    right: 27px;
+}
+
+.but_left {
+    top: 500px;
+    left: 26px;
+}
+
+.text {
+    color: rgb(66, 121, 66);
+    position: absolute;
+    top: 230px;
+    right: 65px;
+}
