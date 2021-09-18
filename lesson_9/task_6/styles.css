@@ -6,15 +6,9 @@
     z-index: 2;
 }
 
-.navigation {
-    height: 40px;
-    position: fixed;
-    z-index: 2;
-}
-
 .nav-list {
     list-style-type: none;
-    line-height: 40px;
+    line-height: 10px;
     text-align: center;
 }
 
