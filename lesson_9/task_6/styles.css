@@ -9,6 +9,7 @@
 .nav-list {
     list-style-type: none;
     line-height: 250%;
+    margin: 0px;
 }
 
 .nav-item {
