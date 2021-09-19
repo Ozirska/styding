@@ -1,16 +1,9 @@
-.page {
+header {
     display: flex;
 }
 
-.header {
-    display: flex;
-    width: 100%;
-}
-
-.text {
-    display: flex;
-    margin: 0px;
-    justify-content: center;
+h1 {
+    margin: auto;
 }
 
 .articles-list {
