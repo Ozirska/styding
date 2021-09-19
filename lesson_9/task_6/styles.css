@@ -4,12 +4,14 @@
     width: 100%;
     position: fixed;
     z-index: 2;
-    position: relative;
 }
 
 .nav-list {
+    position: relative;
     list-style-type: none;
     line-height: 50%;
+    position: absolute;
+    top: 0%;
 }
 
 .nav-item {
@@ -17,8 +19,6 @@
     color: white;
     float: left;
     z-index: 2;
-    position: static;
-    top: 50%;
 }
 
 .content {
