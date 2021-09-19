@@ -4,6 +4,7 @@
     width: 100%;
     position: fixed;
     z-index: 2;
+    position: relative;
 }
 
 .nav-list {
@@ -16,6 +17,8 @@
     color: white;
     float: left;
     z-index: 2;
+    position: static;
+    top: 50%;
 }
 
 .content {
