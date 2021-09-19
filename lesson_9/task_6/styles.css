@@ -7,11 +7,10 @@
 }
 
 .nav-list {
-    position: relative;
     list-style-type: none;
+    height: 40px;
+    font: 16px;
     line-height: 50%;
-    position: absolute;
-    top: 0%;
 }
 
 .nav-item {
