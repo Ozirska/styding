@@ -1,0 +1,68 @@
+.header {
+    height: 40px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list {
+    margin-left: 16px;
+}
+
+.footer {
+    display: flex;
+    height: 40px;
+    background-color: green;
+}
+
+.footer_text {
+    margin: auto;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex-grow: 1;
+    display: flex;
+}
+
+.bord1 {
+    display: flex;
+    flex-grow: 1;
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+}
+
+.bord2 {
+    width: 200px;
+    background-color: grey;
+}
+
+.new {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0pxn 16px 0px;
+}
+
+.list1 {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.news_list {
+    height: 40px;
+    margin: 16px;
+}
