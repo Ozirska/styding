@@ -48,7 +48,6 @@
 .bord2 {
     width: 200px;
     background-color: grey;
-    margin: 0;
 }
 
 .new {
@@ -58,11 +57,14 @@
 }
 
 .list1 {
+    padding: 0;
     margin: 0px;
     list-style-type: none;
 }
 
 .news_list {
+    display: flex;
+    flex-direction: row;
     height: 40px;
     margin-left: 16px;
 }
