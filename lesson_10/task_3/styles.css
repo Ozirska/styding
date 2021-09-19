@@ -48,6 +48,7 @@
 .bord2 {
     width: 200px;
     background-color: grey;
+    margin: 0;
 }
 
 .new {
@@ -57,7 +58,7 @@
 }
 
 .list1 {
-    margin: 0;
+    margin: -1px;
     list-style-type: none;
 }
 
