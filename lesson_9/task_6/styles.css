@@ -4,12 +4,14 @@
     width: 100%;
     position: fixed;
     z-index: 2;
+    display: block;
 }
 
 .nav-list {
     list-style-type: none;
     line-height: 50%;
     display: block;
+    height: 40px;
 }
 
 .nav-item {
