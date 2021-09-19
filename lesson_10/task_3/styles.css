@@ -51,9 +51,10 @@
 }
 
 .new {
+    padding: o;
     display: flex;
     justify-content: center;
-    margin: 16px 0pxn 16px 0px;
+    margin: 16px 0px 16px 0px;
 }
 
 .list1 {
