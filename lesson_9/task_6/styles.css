@@ -8,17 +8,14 @@
 
 .nav-list {
     list-style-type: none;
+    line-height: 250%;
 }
 
 .nav-item {
     margin-left: 16px;
-    line-height: 50%;
-    display: block;
-    height: 40px;
     color: white;
     float: left;
     z-index: 2;
-    display: block;
 }
 
 .content {
