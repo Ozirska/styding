@@ -1,6 +1,6 @@
 header {
     display: flex;
-    /* height: 80px; */
+    height: 80px;
     width: 100%;
 }
 
@@ -17,8 +17,7 @@ h1 {
     margin: 8px;
     padding: 18px;
     background-color: bisque;
-    width: 248px;
-    flex-basis: content;
+    flex-basis: 300px;
     flex-shrink: 0;
     flex-grow: 1;
     align-content: stretch;
