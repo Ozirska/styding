@@ -1,11 +1,11 @@
 header {
     display: flex;
-    height: 79px;
     width: 100%;
 }
 
 h1 {
-    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .articles-list {
