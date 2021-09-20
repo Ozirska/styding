@@ -17,7 +17,7 @@ h1 {
     margin: 8px;
     padding: 18px;
     background-color: bisque;
-    width: 250px;
+    width: 254px;
     flex-basis: content;
     flex-shrink: 0;
     flex-grow: 1;
