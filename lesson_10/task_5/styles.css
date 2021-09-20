@@ -25,5 +25,5 @@ h1 {
     flex-basis: content;
     flex-shrink: 0;
     flex-grow: 1;
-    align-content: center;
+    align-content: stretch;
 }
