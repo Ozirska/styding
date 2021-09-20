@@ -1,6 +1,5 @@
 header {
     display: flex;
-    height: 70px;
 }
 
 h1 {
@@ -9,16 +8,14 @@ h1 {
 
 .articles-list {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
 .article {
-    flex-shrink: 0;
-    flex-basis: 0px;
     margin: 8px;
     padding: 18px;
     background-color: bisque;
+    flex-basis: 300px;
+    flex-shrink: 0;
     flex-grow: 1;
-    justify-content: space-evenly;
 }
