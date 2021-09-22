@@ -3,9 +3,13 @@
     width: 100%;
 }
 
+body {
+    text-align: center;
+}
+
 header {
     display: flex;
-    flex-basis: 100%;
+    width: 100%;
 }
 
 h1 {
@@ -19,7 +23,7 @@ h1 {
 }
 
 .article {
-    flex: 260px;
+    flex: 300px;
     flex-grow: 1;
     flex-shrink: 0;
     margin: 8px;
