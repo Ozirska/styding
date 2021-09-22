@@ -19,7 +19,9 @@ h1 {
 }
 
 .article {
-    flex: 1 0 300px;
+    flex: 300px;
+    flex-grow: 1;
+    flex-shrink: 0;
     margin: 8px;
     padding: 18px;
     background-color: bisque;
