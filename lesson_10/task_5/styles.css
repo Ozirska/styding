@@ -9,7 +9,8 @@ header {
 }
 
 h1 {
-    margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .articles-list {
