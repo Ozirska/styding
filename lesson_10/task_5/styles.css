@@ -1,7 +1,6 @@
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
     width: 100%;
-    margin: 0;
 }
 
 header {
@@ -20,7 +19,7 @@ h1 {
 }
 
 .article {
-    flex: 300px;
+    flex: 248px;
     flex-grow: 1;
     flex-shrink: 0;
     margin: 8px;
