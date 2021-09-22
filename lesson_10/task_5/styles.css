@@ -19,7 +19,7 @@ h1 {
 }
 
 .article {
-    flex: 248px;
+    flex: 260px;
     flex-grow: 1;
     flex-shrink: 0;
     margin: 8px;
