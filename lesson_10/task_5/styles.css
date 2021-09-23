@@ -14,6 +14,6 @@ h1 {
 .article {
     flex: 1 0 300px;
     margin: 8px;
-    padding: 18px;
+    padding: 16px;
     background-color: bisque;
 }
