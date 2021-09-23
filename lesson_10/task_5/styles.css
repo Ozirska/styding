@@ -2,17 +2,8 @@
     box-sizing: border-box;
 }
 
-.head {
-    text-align: center;
-}
-
-header {
-    display: flex;
-}
-
 h1 {
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 .articles-list {
