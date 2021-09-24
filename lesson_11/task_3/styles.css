@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .menu-list {
   display: none;
 }
@@ -12,12 +15,12 @@
   display: inline-block;
   font-size: 16px;
   color: white;
-  cursor: pointer;
 }
 .menu-button:hover {
   opacity: 1;
 }
 .dropdown {
+  cursor: pointer;
   margin: 16px;
 }
 .menu-list {
@@ -31,10 +34,12 @@
 .menu-item {
   display: flex;
   z-index: 1;
+
   width: 120px;
+  margin: 0;
   padding: 16px;
   list-style-type: none;
 }
 .menu-item:hover {
-  background-color: ghostwhite;
+  color: ghostwhite;
 }
