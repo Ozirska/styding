@@ -9,5 +9,5 @@
   text-decoration: line-through;
 }
 .list > li:nth-child(1) {
-  text-decoration: underline red;
+  text-decoration: overline red;
 }
