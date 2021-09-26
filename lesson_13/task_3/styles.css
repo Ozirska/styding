@@ -3,10 +3,10 @@
 }
 html {
   font-family: Arial, sans-serif;
-  font-size: 96px;
-  font-weight: 700;
 }
 header {
+  font-size: 96px;
+  font-weight: 700;
   margin: 0;
   padding: 16px;
   text-transform: uppercase;
