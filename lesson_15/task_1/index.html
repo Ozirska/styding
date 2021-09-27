@@ -12,11 +12,17 @@
       crossorigin="anonymous"
     />
     <style>
+      * {
+        box-sizing: border-box;
+      }
       .image-container {
-        margin: 50px auto 50px;
-        display: block;
+        margin: 50px;
+      }
+      .main_img {
         max-width: 100%;
         border-radius: 20px;
+        display: block;
+        margin: auto;
       }
       .gallery {
         display: flex;
@@ -41,9 +47,9 @@
     </style>
   </head>
   <body>
-    <div>
+    <div class="image-container">
       <img
-        class="image-container"
+        class="main_img"
         src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg"
         alt="land and tree"
       />
