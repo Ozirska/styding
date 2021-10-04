@@ -12,24 +12,24 @@
       crossorigin="anonymous"
     />
     <style>
-      div {
+      .choose-gender {
         margin: 16px;
       }
     </style>
   </head>
   <body>
     <form>
-      <div>
+      <div class="choose-gender">
         <input type="text" name="lastName" value="Emerson" />
       </div>
-      <div>
+      <div class="choose-gender">
         <input type="number" name="age" value="17" />
       </div>
-      <div>
+      <div class="choose-gender">
         <input type="checkbox" name="agree" id="agree" />
         <label for="agree">Accept terms and conditions </label>
       </div>
-      <div>
+      <div class="choose-gender">
         <input type="radio" id="gender-male" name="gender" checked />
         <label for="gender-male">Male</label>
 
@@ -38,13 +38,13 @@
         <input type="radio" id="gender-secret" name="gender" />
         <label for="gender-secret">Secret</label>
       </div>
-      <div>
+      <div class="choose-gender">
         <textarea
           name="description"
           placeholder="Write description..."
         ></textarea>
       </div>
-      <div><button type="submit">Submit</button></div>
+      <div class="choose-gender"><button type="submit">Submit</button></div>
     </form>
   </body>
 </html>
