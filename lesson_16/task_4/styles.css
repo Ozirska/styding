@@ -6,15 +6,12 @@ html {
   font-family: monospace;
 }
 body {
-  background-color: bisque;
-}
-.page {
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  display: block;
-  margin: auto;
-
+  background-color: bisque;
+}
+.page {
   background-color: aqua;
   width: 300px;
   padding: 16px;
@@ -34,8 +31,16 @@ body {
   color: #808080;
   outline: none;
 }
-.form-input:out-of-range {
-  border: 3px#f00;
 
-  /* background-color: #f00; */
+input:invalid {
+  border: 3px solid #f00;
+}
+.submit-button {
+  height: 32px;
+  width: 100%;
+  color: white;
+  border-radius: 4px;
+  margin-top: 16px;
+  background-color: #ff7f50;
+  text-transform: uppercase;
 }
