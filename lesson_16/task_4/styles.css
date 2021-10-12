@@ -6,12 +6,11 @@ html {
   font-family: monospace;
 }
 body {
+  display: flex;
   background-color: bisque;
 }
 .page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
 }
 .login-form {
   background-color: aqua;
