@@ -6,12 +6,13 @@ html {
   font-family: monospace;
 }
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: bisque;
 }
 .page {
+  display: flex;
+}
+.login-form {
+  margin: auto;
   background-color: aqua;
   width: 300px;
   padding: 16px;
