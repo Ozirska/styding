@@ -12,6 +12,7 @@ body {
   background-color: bisque;
 }
 .page {
+  display: block;
   background-color: aqua;
   width: 300px;
   padding: 16px;
