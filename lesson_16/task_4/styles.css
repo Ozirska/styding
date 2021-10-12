@@ -12,14 +12,12 @@ body {
   background-color: bisque;
 }
 .page {
-  display: block;
   background-color: aqua;
   width: 300px;
   padding: 16px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 .form-title {
-  display: block;
   text-transform: uppercase;
   text-align: center;
 }
@@ -44,7 +42,7 @@ input:invalid {
   border: 3px solid #f00;
 }
 .submit-button {
-  display: inline-block;
+  display: block;
   height: 32px;
   width: 100%;
   color: white;
