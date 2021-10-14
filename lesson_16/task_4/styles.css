@@ -5,18 +5,18 @@ html {
   font-size: 16px;
   font-family: monospace;
 }
-body {
-  display: flex;
+
+main {
   background-color: bisque;
-}
-.page {
-  margin: auto;
+  height: 100vh;
+  display: flex;
 }
 .login-form {
   background-color: aqua;
   width: 300px;
   padding: 16px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  margin: auto;
 }
 .form-title {
   text-transform: uppercase;
