@@ -16,7 +16,7 @@ td,
 th {
   text-align: right;
   padding: 4px;
-  line-height: 30px;
+  line-height: 32px;
 }
 tbody > tr:nth-child(odd) {
   background-color: #f2f2f2;
