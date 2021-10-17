@@ -7,7 +7,8 @@ table {
   width: 500px;
 }
 table,
-td {
+td,
+th {
   border: 1px solid black;
   border-collapse: collapse;
 }
