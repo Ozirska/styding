@@ -11,9 +11,19 @@
   text-transform: uppercase;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 700;
-  outline: none;
+  border: none;
   cursor: pointer;
+  line-height: 50px;
 }
 .custom_buttun:hover {
   color: darkcyan;
+}
+.icon-bird {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  fill: white;
+}
+.icon-bird:hover {
+  fill: green;
 }
