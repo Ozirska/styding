@@ -22,7 +22,7 @@ td {
   border: none;
   background-color: white !important;
 }
-tr > td:nth-last-child(-n + 1) {
+tr > td:last-child {
   border: none;
   background-color: white !important;
 }
