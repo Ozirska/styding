@@ -26,6 +26,7 @@
   }
 }
 .circle {
+  display: block;
   width: 50px;
   height: 50px;
   border: 4px solid lightgrey;
