@@ -9,10 +9,8 @@
   margin: auto;
   display: flex;
   flex-direction: column;
-  align-content: center;
 }
 .spinner-text {
-  display: flex;
   font-family: monospace;
   font-size: 16px;
   text-transform: uppercase;
