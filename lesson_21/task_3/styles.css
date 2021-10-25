@@ -67,11 +67,12 @@ h1 {
   white-space: nowrap;
   text-overflow: ellipsis;
   color: #fff;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 .nav-list-link {
   color: #fff;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+
   text-decoration: none;
   line-height: 2em;
 }
