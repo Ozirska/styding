@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: #555;
+}
+.header {
+  color: #fff;
+
+  background: linear-gradient(60deg, red, orange);
+}
+h1 {
+  text-align: center;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.main {
+  display: flex;
+
+  flex-grow: 1;
+}
+.footer {
+  background-color: #e5e5e5;
+  padding: 0.5em;
+}
+.navigation {
+  /* display: flex; */
+  padding: 0.5em;
+  width: 20%;
+}
+.section {
+  line-height: 1.75em;
+  font-size: 1.25em;
+  padding: 0.5em;
+  width: 60%;
+}
+.news {
+  /* display: flex; */
+  padding: 0.5em;
+  width: 20%;
+}
+.css-units {
+  background-color: #e5e5e5;
+  color: #8b0000;
+  font-size: 1.125em;
+  font-weight: 700;
+}
+.section__header {
+  font-size: 5vw;
+  text-align: center;
+}
+.nav-list {
+  padding: 0;
+  list-style-type: none;
+}
+.nav-list-item {
+  background-color: #808080;
+  height: 2em;
+  margin-bottom: 0.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #fff;
+}
+.nav-list-link {
+  color: #fff;
+  padding-left: 0.5em;
+  text-decoration: none;
+  outline: none;
+}
