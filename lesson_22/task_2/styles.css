@@ -5,19 +5,16 @@
   display: flex;
   background-color: #ff7f50;
   min-height: 200px;
-  flex-grow: 1;
 }
 .prod {
   display: flex;
   background-color: #006400;
   min-height: 200px;
-  flex-grow: 1;
 }
 .news {
   display: flex;
   background-color: #0ff;
   min-height: 200px;
-  flex-grow: 1;
 }
 .container {
   display: flex;
