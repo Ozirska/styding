@@ -52,4 +52,9 @@ span {
     display: flex;
     flex-direction: row;
   }
+  .container > .nav,
+  .prod,
+  .news {
+    width: 50%;
+  }
 }
