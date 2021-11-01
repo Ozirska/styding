@@ -16,12 +16,11 @@ html {
 .nav-list {
   padding: 0;
   list-style-type: none;
-  padding: 0.5em;
 }
 .navigation {
-  width: 20%;
 }
 .nav-list-item {
+  width: 20%;
   background-color: #808080;
   color: #fff;
   height: 2em;
