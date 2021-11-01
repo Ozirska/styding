@@ -18,13 +18,14 @@ html {
   list-style-type: none;
 }
 .navigation {
+  width: 20%;
+  padding: 0.5em;
 }
 .nav-list-item {
-  width: 20%;
   background-color: #808080;
   color: #fff;
   height: 2em;
-  margin: 0.5em;
+  margin-top: 0.5em;
   overflow: hidden;
   text-overflow: ellipsis;
   padding-right: 0.5em;
