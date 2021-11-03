@@ -76,9 +76,9 @@ h1 {
   line-height: 2em;
 }
 @media screen and (max-width: 599px) {
-  .sea {
+  /* .sea {
     display: none;
-  }
+  } */
 }
 @media screen and (min-width: 600px) {
   .mountain {
