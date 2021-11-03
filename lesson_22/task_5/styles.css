@@ -24,7 +24,7 @@ h1 {
 .page {
   display: flex;
   flex-direction: column;
-  /* height: 100vh; */
+  height: 100vh;
 }
 .footer {
   text-align: center;
@@ -102,11 +102,6 @@ h1 {
   }
 }
 @media screen and (min-width: 1200px) {
-  .main {
-    display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
-  }
   .navigation {
     width: 20%;
   }
