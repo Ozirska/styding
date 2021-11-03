@@ -88,6 +88,12 @@ h1 {
     display: flex;
     flex-wrap: wrap;
   }
+  .mountain {
+    display: none;
+  }
+  .sea {
+    display: block;
+  }
 }
 @media screen and (min-width: 600px) and (max-width: 1200px) {
   .navigation {
