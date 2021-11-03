@@ -75,15 +75,8 @@ h1 {
   text-decoration: none;
   line-height: 2em;
 }
-@media screen and (max-width: 599px) {
-  .sea {
-    display: none;
-  }
-}
+
 @media screen and (min-width: 600px) {
-  .mountain {
-    display: none;
-  }
   .main {
     display: flex;
     flex-wrap: wrap;
