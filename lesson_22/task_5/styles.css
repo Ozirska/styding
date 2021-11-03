@@ -87,6 +87,7 @@ h1 {
   .main {
     display: flex;
     flex-wrap: wrap;
+    flex-grow: 1;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1200px) {
