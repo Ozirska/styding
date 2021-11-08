@@ -20,7 +20,7 @@
         cursor: pointer;
         &_selected{
             background-color: $color-primary;
-            color: $text-color-primary;
+            
         }
         &:hover{
             opacity: 0.7;
