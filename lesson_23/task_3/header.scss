@@ -1,6 +1,7 @@
 @import 'variables.scss';
 
 .header{
+    margin: 0;
     height: $size;
     background-color: #006400;
 }
@@ -9,7 +10,7 @@
     display: flex;
     align-items: center;
     list-style-type: none;
-    margin-left: $size;
+    // margin-left: $size;
     margin-top: 0;
     margin-right: 0;
     text-transform: uppercase;
