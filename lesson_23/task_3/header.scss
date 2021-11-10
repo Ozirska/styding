@@ -14,10 +14,11 @@
     margin-right: 0;
     text-transform: uppercase;
     &__item{
+        color: $primary-text-color;
         line-height: $size;
      padding-left: 8px;
      padding-right: 8px;
-    &:hover{
+     &:hover{
         
      background-color: #9acd32;
       }
