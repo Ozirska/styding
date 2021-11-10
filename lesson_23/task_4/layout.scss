@@ -1,0 +1,42 @@
+@import 'variables.scss';
+
+span{
+    text-transform: lowercase;
+    padding: 8px;
+    background-color: $bg-text-color;
+    border-radius: 4px;
+    margin: auto;
+}
+.nav{
+    display: flex;
+    background-color: $nav-color;
+    min-height: 200px;
+    flex: 1;
+}
+.prod{
+    display: flex;
+    min-height: 200px;
+    background-color: $prod-color;
+    flex: 1;
+}
+.news{
+    display: flex;
+    min-height: 200px;
+    background-color: $news-color;
+    flex: 1;
+}
+
+    @include for-medium{
+        .first{
+        display: flex;
+        }
+    }
+    @include for-large{
+        .container{
+            display: flex;
+        }
+        .first{
+            display: flex;
+            flex: 2;
+        }
+    }

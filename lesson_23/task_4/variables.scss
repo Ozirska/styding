@@ -1,0 +1,21 @@
+$nav-color: #ff7f50;
+$prod-color: #006400;
+$news-color: #0ff;
+$bg-text-color: #faebd7;
+
+$sm: 600px;
+$md: 900px;
+$lg: 1200px;
+
+@mixin for-medium{
+    @media screen and (min-width: $sm) and (max-width: calc($md - 1px)){
+        @content;
+    }
+}
+@mixin for-large{
+    @media screen and (min-width: $md){
+        @content;
+    }
+}
+
+
