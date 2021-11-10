@@ -1,42 +1,21 @@
-@import 'variables.scss';
+$nav-color: #ff7f50;
+$prod-color: #006400;
+$news-color: #0ff;
+$bg-text-color: #faebd7;
 
-span{
-    text-transform: lowercase;
-    padding: 8px;
-    background-color: $bg-text-color;
-    border-radius: 4px;
-    margin: auto;
+$sm: 600px;
+$md: 900px;
+$lg: 1200px;
+
+@mixin for-medium{
+    @media screen and (min-width: $sm) and (max-width: calc($md - 1px)){
+        @content;
+    }
 }
-.nav{
-    display: flex;
-    background-color: $nav-color;
-    min-height: 200px;
-    flex: 1;
-}
-.prod{
-    display: flex;
-    min-height: 200px;
-    background-color: $prod-color;
-    flex: 1;
-}
-.news{
-    display: flex;
-    min-height: 200px;
-    background-color: $news-color;
-    flex: 1;
+@mixin for-large{
+    @media screen and (min-width: $md){
+        @content;
+    }
 }
 
-    @include for-medium{
-        .first{
-        display: flex;
-        }
-    }
-    @include for-large{
-        .container{
-            display: flex;
-        }
-        .first{
-            display: flex;
-            flex: 2;
-        }
-    }
+

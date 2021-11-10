@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 span {
   text-transform: lowercase;
   padding: 8px;
@@ -41,13 +49,6 @@ span {
     display: flex;
     flex: 2;
   }
-}
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */
