@@ -1,0 +1,145 @@
+@import "variables.scss";
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+
+  &_text {
+    width: 360px;
+    height: 85px;
+    font-size: 18px;
+    line-height: 26px;
+    color: $primary-text-color;
+    margin-top: 26px;
+
+    @include for-large-down {
+      display: none;
+    }
+  }
+
+  &-links {
+    margin-left: 15px;
+
+    @include for-large-up {
+      display: flex;
+      align-items: center;
+      margin-top: auto;
+      margin-bottom: 0;
+      height: 50px;
+      margin-left: 130px;
+    }
+  }
+
+  &-line {
+    border-top: 1px solid #2b292d;
+    width: 100%;
+    opacity: 0.1;
+
+    @include for-large-down {
+      display: none;
+    }
+  }
+
+  &_navigation {
+    border-bottom: 1px solid #e3e3e3;
+    display: flex;
+  }
+
+  @include for-large-up {
+    height: 338px;
+    margin: 0 auto;
+    display: flex;
+    margin-left: 0;
+  }
+}
+
+.terms {
+  @include for-large-up {
+    width: 1400px;
+    height: 50px;
+    margin: 0 auto;
+  }
+
+  &__item {
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    color: $primary-text-color;
+    opacity: 0.6;
+    margin-right: 22px;
+  }
+}
+
+.social-links {
+  @include for-large-up {
+    display: flex;
+    margin-left: auto;
+    margin-right: 132px;
+  }
+
+  &_item {
+    margin-left: 20px;
+  }
+}
+
+.nav-links {
+  width: 265px;
+  margin-top: 30px;
+
+  &_title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: $primary-text-color;
+    margin: 0;
+  }
+
+  &_list {
+    font-size: 18px;
+    line-height: 30px;
+    list-style-type: none;
+    color: $primary-text-color;
+    opacity: 0.6;
+    margin: 0;
+    padding: 0;
+    margin-top: 18px;
+  }
+}
+
+.downloads {
+  margin-top: 25px;
+
+  &-item {
+    margin-right: 10px;
+  }
+}
+
+.about-company {
+  @include for-large-down {
+    padding-top: 41px;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+}
+
+.additional {
+  &-footer {
+    @include for-large-up {
+      width: 1400px;
+      display: flex;
+      margin-left: 130px;
+    }
+  }
+  &-navigation {
+    margin-left: 15px;
+
+    &__column {
+      margin-right: 29px;
+    }
+    @include for-large-up {
+      display: flex;
+      margin-left: 126px;
+    }
+  }
+}

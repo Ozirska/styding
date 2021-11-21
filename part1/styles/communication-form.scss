@@ -1,0 +1,30 @@
+@import "variables.scss";
+
+.form-communication {
+  width: 100%;
+  padding-bottom: 50px;
+  padding-left: 15px;
+
+  @include for-large-up {
+    padding-left: 130px;
+    padding-right: 130px;
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &_column {
+    margin-top: 33px;
+    @include for-large-up {
+      width: 360px;
+    }
+    &-item {
+      color: $primary-text-color;
+      font-size: 18px;
+      line-height: 26px;
+      margin-top: 0;
+    }
+  }
+}
+.item {
+  font-weight: 700;
+}

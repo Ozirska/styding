@@ -1,0 +1,48 @@
+@import "variables.scss";
+
+.about {
+  background-color: #f4f5f7;
+
+  @include for-large-up {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 77px 130px 76px 130px;
+    background-color: #f4f5f7;
+  }
+  &_column {
+    padding: 46px 15px 0px 15px;
+
+    @include for-large-up {
+      width: 555px;
+      height: 102px;
+      padding: 0;
+    }
+
+    &_sm-screen {
+      padding-bottom: 46px;
+    }
+  }
+  &_titel {
+    margin-top: 0;
+
+    @include for-large-up {
+      color: $primary-text-color;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 32px;
+      margin: 0;
+    }
+  }
+  &_text {
+    margin-bottom: 0;
+
+    @include for-large-up {
+      color: $primary-text-color;
+      font-size: 22px;
+      line-height: 32px;
+      margin: 0;
+      margin-top: 6px;
+    }
+  }
+}

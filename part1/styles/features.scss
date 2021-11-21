@@ -1,0 +1,160 @@
+@import "variables.scss";
+
+.features_sm-screen {
+  @include for-large-up {
+    display: none;
+  }
+  &_column {
+    border-bottom: 1px solid #e3e3e3;
+    margin: 0;
+    @include for-large-up {
+      width: 462px;
+      margin-left: 126px;
+    }
+  }
+  &_subtitle {
+    color: #009b4d;
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 700;
+    padding-top: 49px;
+    padding-left: 15px;
+    margin: 0;
+    @include for-large-up {
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 34px;
+      color: #009b4d;
+      margin: 0;
+    }
+  }
+  &_title {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.36px;
+    font-weight: 700;
+    color: $primary-text-color;
+    padding: 17px 0 0 15px;
+    margin: 0;
+    @include for-large-up {
+      height: 112px;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -0.5px;
+      color: $primary-text-color;
+      margin-top: 24px;
+      margin-bottom: 0;
+    }
+  }
+  &_description {
+    font-size: 24px;
+    line-height: 34px;
+    color: $primary-text-color;
+    padding: 15px 0 0 15px;
+    margin: 0;
+    @include for-large-up {
+      margin: 0;
+      margin-top: 30px;
+      font-size: 24px;
+      line-height: 34px;
+      color: $primary-text-color;
+    }
+  }
+  &_img {
+    padding-top: 30px;
+    width: 100%;
+  }
+  &_tips {
+    padding-top: 19px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    color: $primary-text-color;
+    opacity: 0.6;
+  }
+}
+.feature {
+  display: none;
+
+  @include for-large-up {
+    display: block;
+    position: relative;
+    width: 1400px;
+    height: 602px;
+    margin: 0;
+    &_left-decoration {
+      position: absolute;
+      top: 258px;
+    }
+  }
+
+  &_right-decoration {
+    position: absolute;
+    top: 0;
+    left: 700px;
+  }
+  &_column {
+    margin-left: 126px;
+    width: 462px;
+  }
+  &_subtitle {
+    color: #009b4d;
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 700;
+  }
+  &_title {
+    color: $primary-text-color;
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 24px;
+  }
+  &_description {
+    color: $primary-text-color;
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0;
+    margin-top: 30px;
+  }
+  &_advantage {
+    @include for-large-up {
+      &_header {
+        line-height: 42px;
+        margin-top: 42px;
+        display: flex;
+      }
+      &_title {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        color: #3142c6;
+        margin: 0;
+        margin-left: 15px;
+      }
+      &_text {
+        font-size: 18px;
+        line-height: 26px;
+        margin: 0;
+        margin-top: 8px;
+        color: $primary-text-color;
+        padding-bottom: 30px;
+        border-bottom: 3px solid #3142c6;
+      }
+      &_item {
+        border-bottom: 1px solid $primary-text-color 26;
+        margin-top: 21px;
+        padding-bottom: 22px;
+        display: flex;
+        &_text {
+          font-weight: 700;
+          font-size: 22px;
+          line-height: 26px;
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+}
