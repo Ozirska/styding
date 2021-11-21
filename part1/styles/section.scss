@@ -2,6 +2,7 @@
 
 .headline {
   width: 100%;
+  padding: 0 15px;
   @include for-large-up {
     position: relative;
     width: 1140px;
@@ -11,6 +12,8 @@
     padding-bottom: 126px;
   }
   &_content {
+    margin: 0;
+    padding-bottom: 0;
     // margin: 35px 15px 33px 15px;
     @include for-large-up {
       position: absolute;
@@ -24,6 +27,8 @@
     font-size: 50px;
     line-height: 50px;
     letter-spacing: -0.3125px;
+    margin: 0;
+
     @include for-large-up {
       width: 754px;
       height: 165px;
@@ -47,6 +52,7 @@
     }
   }
   &__banner {
+    margin-top: 33px;
     @include for-large-up {
       width: 796px;
       height: 458px;
@@ -58,7 +64,7 @@
     &-image {
       @include for-large-down {
         width: 100%;
-        margin-bottom: 36px;
+        // margin-bottom: 36px;
       }
     }
   }
