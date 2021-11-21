@@ -83,7 +83,6 @@
 
 .headline {
   width: 100%;
-  padding: 0 15px;
 }
 @media screen and (min-width: 400px) {
   .headline {
@@ -97,6 +96,7 @@
 .headline_content {
   margin: 0;
   padding-bottom: 0;
+  padding: 0 15px;
 }
 @media screen and (min-width: 400px) {
   .headline_content {
