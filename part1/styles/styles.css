@@ -9,7 +9,7 @@
 @media screen and (min-width: 400px) {
   .header {
     background-color: #f3c6bd;
-    width: 1400px;
+    width: 1140px;
     height: 62px;
     margin: auto;
     display: flex;
@@ -88,7 +88,7 @@
 @media screen and (min-width: 400px) {
   .headline {
     position: relative;
-    width: 1400px;
+    width: 1140px;
     margin: auto;
     display: flex;
     padding: 84px 25px 77px 126px;
