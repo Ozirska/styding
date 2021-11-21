@@ -13,8 +13,7 @@
     height: 62px;
     margin: auto;
     display: flex;
-    padding-left: 145px;
-    padding-right: 130px;
+    padding: 0 130px;
   }
 }
 .header_button {
@@ -92,8 +91,7 @@
     width: 1400px;
     margin: auto;
     display: flex;
-    margin-top: 84px;
-    padding-bottom: 77px;
+    padding: 84px 25px 77px 126px;
   }
 }
 .headline_content {
@@ -104,7 +102,6 @@
     position: absolute;
     z-index: 1;
     margin: 0;
-    margin-left: 126px;
   }
 }
 .headline_title {
@@ -127,32 +124,24 @@
 .headline_description {
   font-size: 24px;
   line-height: 34px;
-  color: #2b292d;
+  margin-top: 24;
+  margin-bottom: 0;
 }
 @media screen and (min-width: 400px) {
   .headline_description {
     width: 456px;
     height: 102px;
-    overflow-wrap: break-word;
-    font-size: 24px;
-    line-height: 34px;
-    margin-bottom: 0;
     margin-top: 34px;
   }
 }
 @media screen and (min-width: 400px) {
   .headline__banner {
     width: 796px;
-    height: 448px;
+    height: 458px;
     position: relative;
-    right: -582px;
+    right: -453px;
     top: 0;
-  }
-}
-@media screen and (max-width: 399px) {
-  .headline__banner-image {
-    width: 100%;
-    margin-bottom: 36px;
+    padding: 0;
   }
 }
 
