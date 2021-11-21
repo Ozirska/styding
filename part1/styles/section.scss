@@ -7,14 +7,16 @@
     width: 1140px;
     margin: auto;
     display: flex;
-    padding: 84px 25px 77px 126px;
+    // padding: 84px 25px 77px 126px;
+    padding-bottom: 126px;
   }
   &_content {
-    margin: 35px 15px 33px 15px;
+    // margin: 35px 15px 33px 15px;
     @include for-large-up {
       position: absolute;
       z-index: 1;
       margin: 0;
+      margin-top: 35px;
     }
   }
   &_title {
@@ -50,7 +52,7 @@
       height: 458px;
       position: relative;
       right: -453px;
-      top: 8px;
+      top: 42px;
       padding: 0;
     }
     &-image {
