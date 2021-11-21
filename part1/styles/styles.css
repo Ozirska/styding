@@ -4,6 +4,7 @@
   background-color: #fff;
   display: flex;
   align-items: center;
+  padding-left: 15px;
 }
 @media screen and (min-width: 400px) {
   .header {
@@ -97,7 +98,6 @@
     position: absolute;
     z-index: 1;
     margin: 0;
-    margin-top: 35px;
   }
 }
 .headline_title {
@@ -136,7 +136,7 @@
     height: 458px;
     position: relative;
     right: -453px;
-    top: 42px;
+    top: 0;
     padding: 0;
   }
 }
