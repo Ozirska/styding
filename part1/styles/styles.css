@@ -577,7 +577,7 @@
   .order {
     display: flex;
     width: 1140px;
-    padding: 73px 0px 72px 80px;
+    padding: 73px 0px 72px 224px;
   }
 }
 .order_ilustration {
@@ -1142,6 +1142,7 @@ html {
 }
 
 .page {
+  width: 100%;
   overflow-x: hidden;
 }
 @media screen and (min-width: 400px) {

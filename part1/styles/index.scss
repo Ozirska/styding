@@ -20,7 +20,7 @@ html {
   color: $primary-text-color;
 }
 .page {
-  // width: 100%;
+  width: 100%;
   overflow-x: hidden;
 
   @include for-large-up {
