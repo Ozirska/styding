@@ -167,7 +167,8 @@
   width: 1140px;
   display: flex;
   flex-direction: column;
-  margin-top: auto;
+  padding: 0;
+  padding-top: 43px;
 }
 .footer_text {
   width: 360px;
@@ -192,6 +193,7 @@
     margin-top: auto;
     margin-bottom: 0;
     height: 50px;
+    margin-left: 130px;
     width: 1140px;
   }
 }
@@ -286,6 +288,7 @@
   .additional-footer {
     width: 1140px;
     display: flex;
+    margin-left: 130px;
   }
 }
 .additional-navigation {

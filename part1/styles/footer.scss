@@ -4,7 +4,8 @@
   width: 1140px;
   display: flex;
   flex-direction: column;
-  margin-top: auto;
+  padding: 0;
+  padding-top: 43px;
 
   &_text {
     width: 360px;
@@ -28,7 +29,7 @@
       margin-top: auto;
       margin-bottom: 0;
       height: 50px;
-      // margin-left: 130px;
+      margin-left: 130px;
       width: 1140px;
     }
   }
@@ -130,7 +131,7 @@
     @include for-large-up {
       width: 1140px;
       display: flex;
-      // margin-left: 130px;
+      margin-left: 130px;
     }
   }
   &-navigation {
