@@ -358,7 +358,7 @@
 }
 @media screen and (min-width: 400px) {
   .customers {
-    width: 1400px;
+    width: 1140px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -493,7 +493,7 @@
   .feature {
     display: block;
     position: relative;
-    width: 1400px;
+    width: 1140px;
     height: 602px;
     margin: 0;
   }
@@ -577,7 +577,7 @@
 @media screen and (min-width: 400px) {
   .order {
     display: flex;
-    width: 1400px;
+    width: 1140px;
     padding: 73px 230px 72px 224px;
   }
 }
@@ -710,7 +710,7 @@
 }
 @media screen and (min-width: 400px) {
   .inbox {
-    width: 1400px;
+    width: 1140px;
     padding-bottom: 99px;
     padding-top: 142px;
     display: flex;
@@ -811,7 +811,7 @@
 }
 @media screen and (min-width: 400px) {
   .communication {
-    width: 1400px;
+    width: 1140px;
     padding-left: 126px;
     display: flex;
   }
@@ -872,7 +872,7 @@
   .form-communication {
     padding-left: 130px;
     padding-right: 130px;
-    width: 1400px;
+    width: 1140px;
     display: flex;
     justify-content: space-between;
   }
@@ -906,7 +906,7 @@
 @media screen and (min-width: 400px) {
   .audiences {
     padding: 108px 0 110px 0;
-    width: 1400px;
+    width: 1140px;
   }
 }
 
@@ -971,7 +971,8 @@
 }
 .ilustration_block {
   background-color: #fff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   padding: 22px 0 33px 0;
   margin: 0;
@@ -1024,7 +1025,7 @@
 @media screen and (min-width: 400px) {
   .audiences {
     padding: 108px 0 110px 0;
-    width: 1400px;
+    width: 1140px;
   }
 }
 
@@ -1089,7 +1090,8 @@
 }
 .ilustration_block {
   background-color: #fff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   padding: 22px 0 33px 0;
   margin: 0;
@@ -1143,12 +1145,11 @@ html {
 }
 
 .page {
-  width: 100%;
   overflow-x: hidden;
 }
 @media screen and (min-width: 400px) {
   .page {
-    width: 1400px;
+    width: 1140px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -1256,7 +1257,8 @@ html {
   border-radius: 2px;
   border: none;
   margin-bottom: 15px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 @media screen and (min-width: 400px) {
   .action_button {
@@ -1274,7 +1276,8 @@ html {
   border-radius: 2px;
   border: none;
   margin: 0 auto;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 @media screen and (min-width: 400px) {
   .button_more {
