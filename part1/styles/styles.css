@@ -175,7 +175,6 @@
   height: 85px;
   font-size: 18px;
   line-height: 26px;
-  color: #2b292d;
   margin-top: 26px;
 }
 @media screen and (max-width: 399px) {
@@ -201,6 +200,7 @@
   border-top: 1px solid #2b292d;
   width: 100%;
   opacity: 0.1;
+  margin-top: 47px;
 }
 @media screen and (max-width: 399px) {
   .footer-line {
@@ -214,9 +214,7 @@
 @media screen and (min-width: 400px) {
   .footer {
     height: 338px;
-    margin: 0 auto;
     display: flex;
-    margin-left: 0;
   }
 }
 
@@ -224,7 +222,6 @@
   .terms {
     width: 1140px;
     height: 50px;
-    margin: 0 auto;
   }
 }
 .terms__item {
@@ -249,7 +246,7 @@
 
 .nav-links {
   width: 265px;
-  margin-top: 30px;
+  margin-top: 17px;
 }
 .nav-links_title {
   font-weight: 700;
