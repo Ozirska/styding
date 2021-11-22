@@ -38,7 +38,7 @@
     border-top: 1px solid #2b292d;
     width: 100%;
     opacity: 0.1;
-    margin-top: 47px;
+    margin-top: 59px;
 
     @include for-large-down {
       display: none;
@@ -46,7 +46,6 @@
   }
 
   &_navigation {
-    border-bottom: 1px solid #e3e3e3;
     display: flex;
   }
 

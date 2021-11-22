@@ -201,7 +201,7 @@
   border-top: 1px solid #2b292d;
   width: 100%;
   opacity: 0.1;
-  margin-top: 47px;
+  margin-top: 59px;
 }
 @media screen and (max-width: 399px) {
   .footer-line {
@@ -209,7 +209,6 @@
   }
 }
 .footer_navigation {
-  border-bottom: 1px solid #e3e3e3;
   display: flex;
 }
 @media screen and (min-width: 400px) {
