@@ -163,16 +163,17 @@
   }
 }
 
-.footer {
-  width: 1140px;
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  padding-top: 43px;
+@media screen and (min-width: 400px) {
+  .footer {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-top: 43px;
+  }
 }
 .footer_text {
   width: 360px;
-  height: 85px;
   font-size: 18px;
   line-height: 26px;
   margin: 0;
@@ -201,7 +202,7 @@
   border-top: 1px solid #2b292d;
   width: 100%;
   opacity: 0.1;
-  margin-top: 59px;
+  margin-top: 47px;
 }
 @media screen and (max-width: 399px) {
   .footer-line {

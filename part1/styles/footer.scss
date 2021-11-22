@@ -1,15 +1,17 @@
 @import "variables.scss";
 
 .footer {
-  width: 1140px;
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  padding-top: 43px;
+  @include for-large-up {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-top: 43px;
+  }
 
   &_text {
     width: 360px;
-    height: 85px;
+
     font-size: 18px;
     line-height: 26px;
     margin: 0;
@@ -38,7 +40,7 @@
     border-top: 1px solid #2b292d;
     width: 100%;
     opacity: 0.1;
-    margin-top: 59px;
+    margin-top: 47px;
 
     @include for-large-down {
       display: none;
