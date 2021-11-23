@@ -905,7 +905,7 @@
 @media screen and (min-width: 400px) {
   .audiences {
     padding: 108px 0 110px 0;
-    width: 1140px;
+    width: 1400px;
   }
 }
 
@@ -963,25 +963,29 @@
 }
 @media screen and (min-width: 400px) {
   .ilustration {
+    width: 1400px;
     display: flex;
     justify-content: space-between;
     padding: 0 130px 0 130px;
   }
 }
 .ilustration_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   padding: 22px 0 33px 0;
   margin: 0;
   margin-bottom: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100%;
 }
 @media screen and (min-width: 400px) {
   .ilustration_block {
     margin-bottom: 0;
+    width: 262px;
+    height: 300px;
   }
 }
 .ilustration_block-last {
@@ -993,16 +997,6 @@
 }
 .ilustration_block:hover figcaption {
   color: #fff;
-}
-@media screen and (min-width: 400px) {
-  .ilustration_block {
-    width: 262px;
-    height: 300px;
-  }
-}
-.ilustration_block_img {
-  max-width: 100%;
-  margin: auto;
 }
 .ilustration_block-title {
   font-weight: 700;
@@ -1023,7 +1017,7 @@
 @media screen and (min-width: 400px) {
   .audiences {
     padding: 108px 0 110px 0;
-    width: 1140px;
+    width: 1400px;
   }
 }
 
@@ -1081,25 +1075,29 @@
 }
 @media screen and (min-width: 400px) {
   .ilustration {
+    width: 1400px;
     display: flex;
     justify-content: space-between;
     padding: 0 130px 0 130px;
   }
 }
 .ilustration_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   padding: 22px 0 33px 0;
   margin: 0;
   margin-bottom: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100%;
 }
 @media screen and (min-width: 400px) {
   .ilustration_block {
     margin-bottom: 0;
+    width: 262px;
+    height: 300px;
   }
 }
 .ilustration_block-last {
@@ -1111,16 +1109,6 @@
 }
 .ilustration_block:hover figcaption {
   color: #fff;
-}
-@media screen and (min-width: 400px) {
-  .ilustration_block {
-    width: 262px;
-    height: 300px;
-  }
-}
-.ilustration_block_img {
-  max-width: 100%;
-  margin: auto;
 }
 .ilustration_block-title {
   font-weight: 700;
@@ -1147,7 +1135,7 @@ html {
 }
 @media screen and (min-width: 400px) {
   .page {
-    width: 1140px;
+    width: 1400px;
     margin: auto;
     display: flex;
     flex-direction: column;
