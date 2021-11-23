@@ -994,8 +994,6 @@
 .ilustration_block:hover {
   background-color: #3141c5;
   cursor: pointer;
-}
-.ilustration_block:hover figcaption {
   color: #fff;
 }
 .ilustration_block-title {
@@ -1106,8 +1104,6 @@
 .ilustration_block:hover {
   background-color: #3141c5;
   cursor: pointer;
-}
-.ilustration_block:hover figcaption {
   color: #fff;
 }
 .ilustration_block-title {
