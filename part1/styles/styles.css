@@ -996,7 +996,7 @@
 .ilustration_block:hover figcaption {
   color: #fff;
 }
-.ilustration_block:hover-last {
+.ilustration_block-last {
   margin-bottom: 0;
 }
 .ilustration_block-title {
@@ -1109,7 +1109,7 @@
 .ilustration_block:hover figcaption {
   color: #fff;
 }
-.ilustration_block:hover-last {
+.ilustration_block-last {
   margin-bottom: 0;
 }
 .ilustration_block-title {
