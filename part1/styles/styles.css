@@ -600,7 +600,7 @@
   font-weight: 700;
   letter-spacing: -0.25px;
   margin: 0;
-  margin-top: 52px;
+  margin-top: 50px;
 }
 @media screen and (min-width: 400px) {
   .order_title {
@@ -615,7 +615,7 @@
 }
 @media screen and (min-width: 400px) {
   .order_text {
-    margin-top: 15px;
+    margin-top: 12px;
   }
 }
 @media screen and (min-width: 400px) {
