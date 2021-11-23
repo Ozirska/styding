@@ -91,13 +91,14 @@
     margin: 0;
     margin-bottom: 15px;
     width: 100%;
+    height: 300px;
     cursor: pointer;
 
     @include for-large-up {
       margin: 0;
       max-width: 262px;
-      height: 300px;
     }
+
     &:hover {
       background-color: #3141c5;
 
